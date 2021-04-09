@@ -6,4 +6,23 @@
      background-color: red;
      color: white;
      text-align: center;
+     height: 5vh;
+
+     .icon-list{
+          display: inline-flex;
+          // padding: 10px 15px;
+
+
+          .icon {
+               padding: 5px 10px;
+               cursor: pointer;
+          }
+
+          a {
+               text-decoration: none;
+               color: inherit
+          }
+     }
+
+
 }

@@ -6,6 +6,7 @@ import Contact from "./pages/Contact/Contact";
 import Home from "./pages/Home/Home";
 import Projects from "./pages/Projects/Projects";
 import Footer from "./components/Footer/Footer";
+import "./styles/App.scss"
 
 const App = () => {
   return (
