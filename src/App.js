@@ -1,10 +1,23 @@
 import React from "react";
-import Nav from "./components/Nav/Nav"
+import { Switch, Route } from "react-router-dom";
+import Nav from "./components/Nav/Nav";
+import About from "./pages/About/About";
+import Contact from "./pages/Contact/Contact";
+import Home from "./pages/Home/Home";
+import Projects from "./pages/Projects/Projects";
 
 const App = () => {
   return (
-<h1>Alex's Website</h1>
+    <div>
+      <Nav />
+      <Switch>
+        <Route exact path="/" component={Home} />
+        <Route path="/projects" component={Projects} />
+        <Route exact path="/about" component={About} />
+        <Route exact path="/contact" component={Contact} />
+      </Switch>
+    </div>
   );
-}
+};
 
 export default App;
