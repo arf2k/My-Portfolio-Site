@@ -1,6 +1,7 @@
-import './App.css';
+import React from "react";
+import Nav from "./components/Nav/Nav"
 
-function App() {
+const App = () => {
   return (
 <h1>Alex's Website</h1>
   );
