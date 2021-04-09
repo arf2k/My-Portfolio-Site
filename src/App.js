@@ -5,11 +5,13 @@ import About from "./pages/About/About";
 import Contact from "./pages/Contact/Contact";
 import Home from "./pages/Home/Home";
 import Projects from "./pages/Projects/Projects";
+import Footer from "./components/Footer/Footer";
 
 const App = () => {
   return (
     <div>
       <Nav />
+      <Footer/>
       <Switch>
         <Route exact path="/" component={Home} />
         <Route path="/projects" component={Projects} />
