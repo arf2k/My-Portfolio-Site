@@ -1,0 +1,21 @@
+.project-card-container {
+     height: 600px;
+     width: 600px;
+     margin: 40px 160px;
+
+     .proj-title {
+          top: -64px;
+          z-index: 3;
+          font-size: 60px;
+     }
+
+     .proj-image {
+          height: 100%;
+          width: 100%;
+          background-size: cover;
+          background-position: center;
+          z-index: 1
+
+     }
+
+}
