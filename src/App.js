@@ -4,7 +4,7 @@ import Nav from "./components/Nav/Nav";
 import About from "./pages/About/About";
 import Contact from "./pages/Contact/Contact";
 import Home from "./pages/Home/Home";
-import Projects from "./pages/Projects/Projects";
+import ProjectsPage from "./pages/Projects/ProjectsPage";
 import Footer from "./components/Footer/Footer";
 import "./styles/App.scss"
 
@@ -15,7 +15,7 @@ const App = () => {
       <Footer/>
       <Switch>
         <Route exact path="/" component={Home} />
-        <Route path="/projects" component={Projects} />
+        <Route path="/projects" component={ProjectsPage} />
         <Route exact path="/about" component={About} />
         <Route exact path="/contact" component={Contact} />
       </Switch>

@@ -1,4 +1,3 @@
-import React from "react";
 import HorrificImage from "../../assets/HorrificImage.jpeg";
 import FrameworksImage from "../../assets/FrameworksImage.jpeg";
 

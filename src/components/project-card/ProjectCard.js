@@ -1,15 +1,15 @@
 import React from "react";
 import "../../styles/ProjectCard.styles.scss";
-import Projects from "../../components/Projects-Collection/Projects"
 
 
-const ProjectCard = () => {
+const ProjectCard = ({project}) => {
 return (
      <div className="project-card-container">
           <div className="project-card"> 
-          <p classname="proj-title">Project Title</p>
-          <img alt="project" src={HorrificImage} className="proj-image"/>
-          <button/>
+          <p classname="proj-title">{project.title}</p>
+          <img alt="project" src={project.imgLoc} className="proj-image"/>
+          <p>{project.description}</p>
+          <button>Go to deets </button>
           </div>
      
      </div>

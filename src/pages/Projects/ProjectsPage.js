@@ -3,7 +3,7 @@ import React from "react";
 import ProjectsCollection from "../../components/Projects-Collection/ProjectsCollection";
 import "../../styles/ProjectsPage.styles.scss"
 
-const Projects = () => {
+const ProjectsPage = () => {
      return(
           <>
           <div className="projects-page">
@@ -13,4 +13,4 @@ const Projects = () => {
      )
 }
 
-export default Projects
+export default ProjectsPage

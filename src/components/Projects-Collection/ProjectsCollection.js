@@ -1,18 +1,18 @@
 import React from "react";
 import ProjectCard from "../Project-Card/ProjectCard";
 import "../../styles/ProjectCollection.styles.scss";
-import Projects from "../../pages/Projects/Projects";
+import Projects from "./Projects"
 
 
 const ProjectsCollection = () => {
 
-     // const renderCards = () => {
-     //      return projects.map((proj) => <ProjectCard key={proj.id} {...proj}/>)
-     // } 
+     const renderCards = () => {
+          return Projects.map((project) => <ProjectCard key={project.id} project={project}/>)
+     } 
 return(
      <>
      <div className="project-collection-container">
-     <ProjectCard/>
+    {renderCards()}
      </div>
      </>
 )
