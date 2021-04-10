@@ -3,19 +3,22 @@
      left: 0;
      bottom: 0;
      width: 100%;
-     background-color: red;
+     background-color: inherit;
      color: white;
      text-align: center;
      height: 5vh;
 
      .icon-list{
           display: inline-flex;
-          // padding: 10px 15px;
 
 
           .icon {
                padding: 5px 10px;
                cursor: pointer;
+              
+               &:hover{
+                    color: #778DA9;
+               }
           }
 
           a {

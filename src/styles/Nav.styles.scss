@@ -11,6 +11,7 @@
     width: 70px;
     padding: 25px;
     text-decoration: none;
+    color: #E0E1DD;
   }
 
   .page-options-container {
@@ -21,10 +22,14 @@
     justify-content: flex-end;
 
     .page-option {
-     color: blue;
+     color: #E0E1DD;
       padding: 10px 15px;
       cursor: pointer;
       text-decoration: none;
+
+      &:hover{
+           color: #778DA9;
+      }
     }
   }
 }
