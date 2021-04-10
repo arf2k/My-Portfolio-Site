@@ -5,6 +5,7 @@ import {
   faLinkedin,
   faGithubSquare,
   faMedium,
+  faImdb
 } from "@fortawesome/free-brands-svg-icons";
 
 const Footer = () => {
@@ -26,6 +27,9 @@ const Footer = () => {
         <a href="https://foreman-alexander.medium.com/" >
           {" "}
           <FontAwesomeIcon icon={faMedium} size="2x" className="icon" />{" "}
+        </a>
+        <a href="https://www.imdb.com/name/nm4876010/?ref_=nv_sr_srsg_0">
+             <FontAwesomeIcon icon={faImdb} size="2x" className="icon"/>
         </a>
       </div>
     </div>

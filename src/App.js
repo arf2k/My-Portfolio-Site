@@ -10,7 +10,7 @@ import "./styles/App.scss"
 
 const App = () => {
   return (
-    <div>
+    <div className="background">
       <Nav />
       <Footer/>
       <Switch>
